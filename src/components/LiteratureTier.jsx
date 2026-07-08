@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Star, Bookmark, FileText, Award, ExternalLink, FileDown } from 'lucide-react';
 import SectionHeader from './SectionHeader';
 
-const papersPath = (filename) => `/papers/${encodeURIComponent(filename)}`;
+const papersPath = (filename) => `papers/${encodeURIComponent(filename)}`;
 
 const tiers = [
   {

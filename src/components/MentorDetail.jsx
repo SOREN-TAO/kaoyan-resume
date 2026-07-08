@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { BookOpen, Lightbulb, Star, ChevronDown, ExternalLink } from 'lucide-react';
 import SectionHeader from './SectionHeader';
 
-const papersPath = (filename) => `/papers/${encodeURIComponent(filename)}`;
+const papersPath = (filename) => `papers/${encodeURIComponent(filename)}`;
 
 const mentors = [
   {

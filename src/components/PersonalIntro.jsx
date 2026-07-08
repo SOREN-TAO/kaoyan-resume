@@ -3,6 +3,7 @@ import {
   User, MapPin, Calendar, GraduationCap, Target, BookOpen,
   Quote,
 } from 'lucide-react';
+import avatarImg from '../assets/avatar.jpg';
 
 const highlights = [
   { icon: MapPin, label: '坐标', value: '成都 · 四川大学' },
@@ -62,7 +63,7 @@ export default function PersonalIntro() {
                   className="w-32 h-32 rounded-3xl mx-auto mb-6 relative overflow-hidden border-2 border-white/[0.12] shadow-2xl shadow-accent-cyan/10 group-hover:border-accent-cyan/30 transition-all duration-500"
                 >
                   <img
-                    src="/avatar.jpg"
+                    src={avatarImg}
                     alt="陶帅的不行"
                     className="w-full h-full object-cover"
                   />

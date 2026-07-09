@@ -42,7 +42,7 @@ export default function MethodsGlossary() {
     <section id="methods" className="relative py-24 px-6">
       <div className="max-w-[1700px] mx-auto">
         <SectionHeader
-          tag="Research Methods"
+          tag="研究方法论"
           title="研究方法论速成 & 答题技巧"
           subtitle="掌握导师的研究方法是高分的关键 · 12种方法 + 答题模板"
           accentClass="text-accent-purple"

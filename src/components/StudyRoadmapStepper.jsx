@@ -64,7 +64,7 @@ export default function StudyRoadmapStepper() {
     <section id="roadmap" className="relative py-24 px-6">
       <div className="max-w-[900px] mx-auto">
         <SectionHeader
-          tag="Study Roadmap"
+          tag="学习路线图"
           title="三个月考研论文突击计划"
           subtitle="通读 → 精读 → 整合 → 冲刺，四阶段递进式学习，8月下旬全力备考"
           accentClass="text-accent-blue"

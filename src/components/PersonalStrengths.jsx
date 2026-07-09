@@ -70,7 +70,7 @@ export default function PersonalStrengths() {
     <section id="strengths" className="relative py-24 px-6">
       <div className="max-w-[1700px] mx-auto">
         <SectionHeader
-          tag="Personal Strengths"
+          tag="个人研究优势"
           title="个人研究优势"
           subtitle="系统化的学习方法论 × 多维度的学术整合能力 × 精准的应试导向"
           accentClass="text-accent-teal"

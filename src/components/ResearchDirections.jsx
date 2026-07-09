@@ -70,7 +70,7 @@ export default function ResearchDirections() {
     <section id="directions" className="relative py-24 px-6">
       <div className="max-w-[1700px] mx-auto">
         <SectionHeader
-          tag="Research Directions"
+          tag="研究方向总览"
           title="五大研究方向"
           subtitle="35份文献 · 5位核心导师 · 约120万字 · 覆盖6大学科门类"
         />

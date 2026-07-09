@@ -184,7 +184,7 @@ export default function MentorDetail() {
     <section id="mentors" className="relative py-24 px-6">
       <div className="max-w-[1700px] mx-auto">
         <SectionHeader
-          tag="Mentor Deep Dive"
+          tag="导师深度解析"
           title="五位导师研究方向深度拆解"
           subtitle="点选展开查看各导师学术框架、核心概念、论文清单及押题方向"
           accentClass="text-accent-teal"

@@ -75,7 +75,7 @@ export default function SelectedProjects() {
     <section id="projects" className="relative py-24 px-6">
       <div className="max-w-[1700px] mx-auto">
         <SectionHeader
-          tag="Research Projects"
+          tag="研究方向精选"
           title="精选研究方向"
           subtitle="五大核心方向 · 35份文献 · 约120万字 · 构建完整学术知识图谱"
           accentClass="text-accent-cyan"

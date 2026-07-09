@@ -92,7 +92,7 @@ export default function LiteratureTier() {
     <section id="literature" className="relative py-24 px-6">
       <div className="max-w-[1700px] mx-auto">
         <SectionHeader
-          tag="Must-Read Literature"
+          tag="必读文献清单"
           title="必读文献分级清单"
           subtitle="Tier 1（必读核心 6篇）→ Tier 2（重要补充 8篇）→ Tier 3（拓展阅读 12篇）+ 5套课程讲义"
           accentClass="text-accent-orange"

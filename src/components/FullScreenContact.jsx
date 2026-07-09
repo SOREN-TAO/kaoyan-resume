@@ -83,7 +83,7 @@ export default function FullScreenContact() {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-accent-cyan/20 bg-accent-cyan/[0.05] mb-8 backdrop-blur-sm"
         >
           <Sparkles size={14} className="text-accent-cyan" />
-          <span className="text-xs font-medium text-accent-cyan tracking-widest uppercase">Get In Touch</span>
+          <span className="text-xs font-medium text-accent-cyan tracking-widest uppercase">与我联系</span>
         </motion.div>
 
         {/* Heading */}
@@ -194,12 +194,12 @@ export default function FullScreenContact() {
             <span className="text-xs text-text-muted">· 2026 考研备战</span>
           </div>
           <div className="flex items-center justify-center gap-1.5 text-[11px] text-text-muted">
-            <span>Built with</span>
+            <span>用心打造</span>
             <Heart size={10} className="text-accent-rose" fill="currentColor" />
-            <span>for academic excellence</span>
+            <span>追求学术卓越</span>
             <span className="mx-1">·</span>
             <Coffee size={10} className="text-accent-orange/60" />
-            <span>Powered by React + Three.js + Tailwind</span>
+            <span>基于 React + Three.js + Tailwind 构建</span>
           </div>
 
           {/* Back to top */}

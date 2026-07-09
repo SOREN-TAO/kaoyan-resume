@@ -74,7 +74,7 @@ export default function Footer() {
             <span className="text-xs text-text-muted">· 2026 考研备战</span>
           </div>
           <p className="text-[11px] text-text-muted flex items-center justify-center gap-1">
-            Built with <Heart size={10} className="text-accent-rose" fill="currentColor" /> for academic excellence
+            用心打造 <Heart size={10} className="text-accent-rose" fill="currentColor" /> 追求学术卓越
           </p>
         </motion.div>
       </div>

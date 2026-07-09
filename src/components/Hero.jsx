@@ -4,7 +4,6 @@ import {
   ArrowDown, Sparkles, Send, FileText, GraduationCap, BookOpen, Users,
 } from 'lucide-react';
 import GridScan from './GridScan';
-import LiquidEther from './LiquidEther';
 
 const stats = [
   { icon: FileText, value: '35', unit: '份', label: '文献总量' },
@@ -26,17 +25,6 @@ export default function Hero() {
       ref={ref}
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* LiquidEther fluid background */}
-      <LiquidEther
-        colors={['#5227FF', '#3b82f6', '#22d3ee']}
-        autoDemo={true}
-        autoSpeed={0.25}
-        autoIntensity={1.2}
-        mouseForce={12}
-        cursorSize={60}
-        resolution={0.4}
-      />
-
       {/* GridScan 3D background */}
       <div className="absolute inset-0 z-0">
         <GridScan

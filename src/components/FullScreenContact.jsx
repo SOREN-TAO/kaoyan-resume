@@ -2,29 +2,29 @@ import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import {
   Mail, Send, GraduationCap, Heart, MapPin, ExternalLink, Sparkles,
-  ArrowUp, Code2, BookOpen, Coffee,
+  ArrowUp, Phone, BookOpen, Coffee,
 } from 'lucide-react';
 
 const contactMethods = [
   {
     icon: Mail,
     label: '电子邮箱',
-    value: 'taoshuai@example.com',
-    href: 'mailto:taoshuai@example.com',
+    value: 'siyuan16@gmail.com',
+    href: 'mailto:siyuan16@gmail.com',
     color: 'cyan',
+  },
+  {
+    icon: Phone,
+    label: '联系电话',
+    value: '18215544060',
+    href: 'tel:18215544060',
+    color: 'teal',
   },
   {
     icon: MapPin,
     label: '所在城市',
     value: '成都 · 四川大学',
     href: null,
-    color: 'teal',
-  },
-  {
-    icon: Code2,
-    label: 'GitHub',
-    value: 'github.com/taoshuai',
-    href: 'https://github.com',
     color: 'purple',
   },
   {
@@ -153,7 +153,7 @@ export default function FullScreenContact() {
           className="mb-14"
         >
           <a
-            href="mailto:taoshuai@example.com"
+            href="mailto:siyuan16@gmail.com"
             className="inline-flex items-center gap-2.5 px-8 py-4 rounded-2xl bg-gradient-to-r from-accent-cyan/20 to-accent-blue/20 border border-accent-cyan/30 text-sm font-bold text-accent-cyan hover:from-accent-cyan/30 hover:to-accent-blue/30 hover:border-accent-cyan/50 transition-all duration-500 shadow-lg shadow-accent-cyan/5 group"
           >
             <Send size={16} className="group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform duration-300" />

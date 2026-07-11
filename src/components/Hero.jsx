@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import {
   ArrowDown, Sparkles, Send, FileText, GraduationCap, BookOpen, Users,
 } from 'lucide-react';
-import GridScan from './GridScan';
+
 
 const stats = [
   { icon: FileText, value: '35', unit: '份', label: '文献总量' },
@@ -25,29 +25,6 @@ export default function Hero() {
       ref={ref}
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* GridScan 3D background */}
-      <div className="absolute inset-0 z-0">
-        <GridScan
-          linesColor="#1e293b"
-          scanColor="#22d3ee"
-          scanOpacity={0.3}
-          gridScale={0.1}
-          lineThickness={1.2}
-          lineJitter={0.06}
-          scanGlow={0.5}
-          scanSoftness={2.5}
-          scanDuration={2.8}
-          scanDelay={2.8}
-          bloomIntensity={0.12}
-          bloomThreshold={0.25}
-          bloomSmoothing={0.35}
-          chromaticAberration={0.001}
-          noiseIntensity={0.006}
-          scanOnClick={true}
-          snapBackDelay={350}
-        />
-      </div>
-
       {/* Dark gradient overlay (Gaussian blur equivalent via layered gradients) */}
       <div className="absolute inset-0 z-[1] bg-gradient-to-b from-deep-950/70 via-deep-950/40 to-deep-950/90 pointer-events-none" />
       <div className="absolute inset-0 z-[1] backdrop-blur-[2px] pointer-events-none" style={{ WebkitMaskImage: 'radial-gradient(ellipse at center, transparent 30%, black 100%)' }} />

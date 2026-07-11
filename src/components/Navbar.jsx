@@ -6,6 +6,7 @@ const links = [
   { href: '#intro', label: '关于我' },
   { href: '#projects', label: '研究方向' },
   { href: '#strengths', label: '个人优势' },
+  { href: '#plan', label: '考研计划' },
   { href: '#mentors', label: '导师详情' },
   { href: '#roadmap', label: '学习路线' },
   { href: '#literature', label: '必读文献' },

@@ -8,6 +8,7 @@ import MentorDetail from './components/MentorDetail';
 import StudyRoadmapStepper from './components/StudyRoadmapStepper';
 import LiteratureTier from './components/LiteratureTier';
 import MethodsGlossary from './components/MethodsGlossary';
+import StudyPlan from './components/StudyPlan';
 import FullScreenContact from './components/FullScreenContact';
 
 export default function App() {
@@ -30,6 +31,7 @@ export default function App() {
           <PersonalIntro />
           <SelectedProjects />
           <PersonalStrengths />
+          <StudyPlan />
           <MentorDetail />
           <StudyRoadmapStepper />
           <LiteratureTier />
